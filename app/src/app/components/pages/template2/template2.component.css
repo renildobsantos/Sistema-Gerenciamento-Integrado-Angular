@@ -1,0 +1,13 @@
+.pagina2 {
+    background: red;
+    height: 72vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina2 img {
+    width: 35%;
+    opacity: 0.15;
+}

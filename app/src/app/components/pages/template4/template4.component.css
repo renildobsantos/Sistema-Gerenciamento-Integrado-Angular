@@ -1,0 +1,13 @@
+.pagina4 {
+    background: chartreuse;
+    height: 72vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina4 img {
+    width: 35%;
+    opacity: 0.15;
+}

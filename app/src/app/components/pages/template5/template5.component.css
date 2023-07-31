@@ -1,0 +1,13 @@
+.pagina5 {
+    background: rgb(22, 34, 201);
+    height: 72vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina5 img {
+    width: 35%;
+    opacity: 0.15;
+}

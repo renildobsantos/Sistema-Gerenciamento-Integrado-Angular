@@ -1,0 +1,13 @@
+.pagina3 {
+    background: orchid;
+    height: 72vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina3 img {
+    width: 35%;
+    opacity: 0.15;
+}

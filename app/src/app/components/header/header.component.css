@@ -1,0 +1,38 @@
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 240px;
+}
+
+.titulo img {
+   width: 8rem;
+   margin: 8px;
+}
+
+.titulo h2 {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #99A98F;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.user img {
+    width: 25px;
+}
+
+.user img:hover{
+    transform:scale3d(1.2,1.2,1.2)
+}
+
+.user h2 {
+    font-size: .7rem;
+    color: #99A98F;
+}

@@ -1,0 +1,46 @@
+.container {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:#dcd7c2;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'cabecalho cabecalho cabecalho cabecalho cabecalho'
+    'menu paginas paginas paginas paginas'
+    'rodape rodape rodape rodape rodape'
+}
+
+.container {
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+}
+
+#cabecalho {
+    grid-area: cabecalho;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px #c5c2b0;
+}
+
+#menu {
+    grid-area: menu;
+    height: 75vh;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px #c5c2b0;
+}
+
+#paginas {
+    grid-area: paginas;
+    height: 75vh;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px #c5c2b0;
+}
+
+#rodape {
+    grid-area: rodape;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px #c5c2b0;
+}

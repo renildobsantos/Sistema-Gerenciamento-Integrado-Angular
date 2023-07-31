@@ -1,0 +1,13 @@
+.pagina1 {
+    background: yellow;
+    height: 72vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina1 img {
+    width: 35%;
+    opacity: 0.15;
+}
